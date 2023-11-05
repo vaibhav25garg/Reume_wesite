@@ -1,0 +1,51 @@
+/* border */
+.border-l{
+  border-right:0.001rem solid rgb(179, 147, 5);
+  z-index: 1;
+  height: 100%;
+}
+
+/* fonts */
+
+.st-font{
+  font-family: "Satisfy";
+}
+
+html,
+body{
+  height: 100%;
+}
+
+.container-fluid{
+  min-height: 100%;
+}
+
+/* services Icon color */
+.i-color{
+  color: chartreuse;
+}
+
+/* Service Subtitle Color */
+.ss-color{
+  color: silver;
+}
+
+/* contact */
+.form-row{
+  display: inline-flex ;
+}
+
+.nav-link {
+  color: whitesmoke;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: #e9cd79;
+}
+
+.nav-link.active {
+  color: black;
+  background-color: #ffc107;
+  font-weight: bold;
+}
